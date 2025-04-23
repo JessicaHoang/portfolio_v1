@@ -125,7 +125,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Node.js',
+    'JSON',
+    'Three.js',
+    'MongoDB',
+    'MySQL',
+    'Linux',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +146,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello world! I'm a software engineer based in the Bay Area who just really enjoys
+              learning and writing code. My interest in Full-Stack development started in 2018 when
+              I worked on TimeCrunch, a mobile app that streamlines wait-times for users to avoid
+              long lines at their favorite restaurants when out and about with friends. Whenever we
+              had a meeting, I've learned about React, JavaScript, HTML, CSS, and where the best
+              taco places were for Taco Tuesdays! 🌮
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Currently, I've had the privilege of working at{' '}
+              <a href="https://support.neatorobotics.com/support/solutions">
+                an established robotics company
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              and a <a href="https://www.google.com/">a huge corporation</a>, My main focus these
+              days is keeping up with new full-stack, automation, AI, and cybersecurity technologies
+              to build fun side projects as well as contributing to open source projects.
+            </p>
+
+            <p>
+              My projects and open source contributions can be found on my{' '}
+              <a href="https://github.com/JessicaHoang">github!</a>
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +181,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="https://avatars.githubusercontent.com/u/32215166?v=4"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -70,9 +70,15 @@ const Hero = () => {
     <>
       <p>
         I'm a software engineer who loves building full-stack apps, automating things, and exploring
-        AI and cybersecurity. I’ve worked on everything from testing robots at Neato Robotics to
-        shipping features at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+        AI and cybersecurity. I’ve worked on everything from testing robots at{' '}
+        <a
+          href="https://support.neatorobotics.com/support/solutions"
+          target="_blank"
+          rel="noreferrer">
+          Neato Robotics
+        </a>{' '}
+        to shipping features at{' '}
+        <a href="https://www.google.com/" target="_blank" rel="noreferrer">
           Google
         </a>
         .

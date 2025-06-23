@@ -159,9 +159,9 @@ const About = () => {
               <a href="https://support.neatorobotics.com/support/solutions">
                 an established robotics company
               </a>{' '}
-              and a <a href="https://www.google.com/">a huge corporation</a>, My main focus these
-              days is keeping up with new full-stack, automation, AI, and cybersecurity technologies
-              to build fun side projects as well as contributing to open source projects.
+              and <a href="https://www.google.com/">a huge corporation</a>, My main focus these days
+              is keeping up with new full-stack, automation, AI, and cybersecurity technologies to
+              build fun side projects as well as contributing to open source projects.
             </p>
 
             <p>

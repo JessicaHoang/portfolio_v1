@@ -7,14 +7,6 @@ module.exports = {
       url: 'https://github.com/JessicaHoang',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/jessica-hoang/',
     },

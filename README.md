@@ -1,87 +1,82 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
-</div>
-<h1 align="center">
-  brittanychiang.com - v4
-</h1>
-<p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
-</p>
-<p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
-</p>
+# portfolio-v1-git-main-jessica-hoangs-projects.vercel.app
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+My personal website inspired by the design of [Brittany Chiang's website](https://brittanychiang.com). All design credits go to Brittany Chiang. 🌟
 
-## 🚨 Forking this repo (please read!)
+## Implementation 🛠️
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+This personal website was cloned from Brittany Chiang's brilliantly designed website. I created it to show the world my passion projects in a central and easy-to-find place in the internet.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+## Technical Stack 🧰
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+- **Languages and Libraries**: Built with Next.js (a React framework) and TypeScript.
+- **Styling**: Tailwind CSS.
+- **Components**: Shadcn/ui.
+- **IDE**: Coded in Visual Studio Code.
+- **Deployment**: Hosted and deployed with Vercel.
 
-### TL;DR
+## Design Credits 🎨
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+The design of this site is based on the 4th iteration of Brittany Chiang's portfolio. I have recreated the design for my training and personal use while ensuring to give full credit to Brittany for their original and inspiring work.
 
-## 🛠 Installation & Set Up
+### Disclaimer ⚠️
 
-1. Install the Gatsby CLI
+This site is currently a clone, but I intend to spruce it up and change some design aspects in the future. The information I am displaying is my own.
 
-   ```sh
-   npm install -g gatsby-cli
-   ```
+### Acknowledgement 👏
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+> Based on Brittany Chiang's website (they're awesome). Coded in Visual Studio Code. Built with Next.js, Tailwind CSS, and Shadcn/ui, deployed with Vercel.
 
-   ```sh
-   nvm install
-   ```
+## 🚨 Forking this repo (please read, it's important!) 🚨
 
-3. Install dependencies
+I encourage others to learn from and be inspired by the design of this website. However, if you choose to use elements of my code and Brittany's design, **give proper credit to both me and Brittany Chiang** by linking back to both our works.
 
-   ```sh
-   yarn
-   ```
+Remember, it's essential to respect other people's work! Thanks.
 
-4. Start the development server
+### TL;DR 📝
 
-   ```sh
-   npm start
-   ```
+- The design of this website is inspired by and credited to Brittany Chiang.
+- The site was independently coded and developed by me by re-creating Brittany's original design.
+- **You can fork this repo but make sure you attribute by linking back to [brittanychiang.com](https://brittanychiang.com) and [meikopoulos.com](https://meikopoulos.com).**
 
-## 🚀 Building and Running for Production
+## Getting Started 🚀
 
-1. Generate a full static production build
+This is a [Next.js](https://nextjs.org/) project that was initially bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-   ```sh
-   npm run build
-   ```
+1. First, install all dependencies:
 
-1. Preview the site as it will appear once deployed
+```bash
+npm install
+```
 
-   ```sh
-   npm run serve
-   ```
+2. Make sure it builds:
 
-## 🎨 Color Reference
+```bash
+npm run build
+```
 
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
-| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
-| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
-| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
-| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
-| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
-| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
-| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+3. Run it locally
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying the appropriate components/sections. The page auto-updates as you edit and save.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More 📘
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
+
+## Deploy on Vercel 🌐
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

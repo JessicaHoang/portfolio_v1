@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "portfolio_v1",
+  "description": "Personal Website V1",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Jessica Hoang <jessica97hoang@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/JessicaHoang/portfolio_v1"
   },
   "keywords": [
     "gatsby"
